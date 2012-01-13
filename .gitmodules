@@ -1,3 +1,6 @@
 [submodule "vim-align"]
 	path = vim-align
 	url = git://github.com/tsaleh/vim-align.git
+[submodule "vim-powerline"]
+	path = vim-powerline
+	url = git@github.com:Lokaltog/vim-powerline.git
