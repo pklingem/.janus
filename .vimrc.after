@@ -1,0 +1,7 @@
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  'coverage$\|\.git$\|\.hg$\|\.svn$',
+  \ 'file': '\.exe$\|\.so$\|\.dll$',
+  \ 'link': 'bad_symbolic_link',
+  \ }
+
+let g:ctrlp_use_caching = 0

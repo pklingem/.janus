@@ -1,0 +1,10 @@
+color railscasts
+set lines=180 columns=450
+set guifont=menlo:h12
+let vimclojure#HighlighBuiltins = 1
+let vimclojure#ParenRainbow = 1
+
+imap <C-l> <Space>=><Space>
+au BufRead,BufNewFile *.rabl setf ruby
+
+let g:ctrlp_by_filename = 0
